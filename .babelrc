@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "env",
+    "@babel/react"
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-react-jsx", {
+      "pragmaFrag": "React.Fragment"
+    }],
+    ["styled-jsx/babel", {
+      "optimizeForSpeed": true
+    }]
+  ]
+}
